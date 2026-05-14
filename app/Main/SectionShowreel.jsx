@@ -135,7 +135,7 @@ const SectionShowreel = () => {
             ref={showreelItemRef1}
           >
             <img
-              src="/logos/Screenshot_14.png"
+              src="/logos/salesforce.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -146,7 +146,7 @@ const SectionShowreel = () => {
             ref={showreelItemRef2}
           >
             <img
-              src="/logos/Screenshot_15.png"
+              src="/logos/insight.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -158,7 +158,7 @@ const SectionShowreel = () => {
           >
             
             <img
-              src="/logos/Screenshot_16.png"
+              src="/logos/zephyr.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -169,7 +169,7 @@ const SectionShowreel = () => {
             ref={showreelItemRef4}
           >
             <img
-              src="/logos/Screenshot_17.jpg"
+              src="/logos/semel.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -188,106 +188,51 @@ const SectionShowreel = () => {
               className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
             >
               <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
-                2025
+                2026
               </h4>
               <div className="flex flex-col flex-1 gap-2">
                 <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Team Lead | Senior AI/ML Engineer | Data Scientist | Senior Software Engineer (AvaSure)
+                Principal AI/ML Software Engineer | Team Lead | Senior Data Scientist (Salesforce)
                   <span className="font-normal text-zinc-400 lg:hidden">
                     {" "}
-                    - 2025
+                    - 2026
                   </span>
                 </h3>
                 <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
                   <li>
-                  Led end-to-end delivery of AI/ML systems, defining system architecture and overseeing
-                  execution across engineering and clinical teams.  
+                  Architected production-grade GenAI and RAG systems supporting enterprise conversational intelligence,
+                  knowledge management, AI assistants, semantic search, and customer-facing automation workflows.   
                   </li>
                   <li>
-                  Owned multiple concurrent AI/ML workstreams, driving architecture decisions, prioritization,
-                  and delivery across clinical, data, and platform teams while aligning technical solutions with product and operational goals.  
+                  Developed intelligent document processing and retrieval workflows for enterprise PDFs, scanned records,
+                  knowledge repositories, and regulated business documents supporting OCR, semantic search, and RAG use cases.
                   </li>
                   <li>
-                  Developed deep learning and NLP models using PyTorch and Hugging Face Transformers (BERT) to process 
-                  unstructured clinical notes, transcripts, and patient interactions, improving early risk detection accuracy by 30%
-                  while aligning outputs with structured FHIR resources and clinical ontologies.  
+                  Evaluated AutoGen- and CrewAI-based multi-agent orchestration approaches for autonomous task routing,
+                  collaborative agent execution, tool coordination, and enterprise workflow experimentation.  
                   </li>
                   <li>
-                  Optimized AI models for bedside virtual care assistants, focusing on triage of patient requests and enhancing overall quality of care by 35% through data-driven insights with Scikit-learn for statistical modeling and leveraging Snowflake as a data warehouse.
+                  Exposed FastAPI, Node.js, and .NET Core APIs supporting OCR extraction, semantic retrieval, enterprise search, SharePoint-style repository integration, and governed document-processing workflows while storing extracted metadata and embeddings using DynamoDB, MongoDB and PostgreSQL.
                   </li>
                   <li>
-                  Enhanced AI-driven patient monitoring by integrating GCP Vertex AI and Azure Cognitive Services for advanced computer vision and NLP, using Python with TensorFlow and Hugging Face for model development, achieving 20% higher model accuracy.
+                  Designed Azure-focused AI agent workflows and enterprise automation prototypes aligned with Microsoft AI ecosystem requirements, including Azure AI services, agent orchestration, and workflow automation.
                   </li>
                   <li>
-                  Created React-based dashboards with Material UI and Tailwind CSS, paired with Node.js/Express backend services and FastAPI for high-performance APIs, enabling real-time visualization of patient data processed through GCP BigQuery and utilizing Weaviate’s vector DB, improving data retrieval by 30%.
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li
-              role="article"
-              className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
-            >
-              <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
-                2023
-              </h4>
-              <div className="flex flex-col flex-1 gap-2">
-                <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Machine Learning Engineer | Senior Software Engineer (Rx Return Services (RxRS) )
-                  <span className="font-normal text-zinc-400 lg:hidden">
-                    {" "}
-                    - 2022
-                  </span>
-                </h3>
-                <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
-                  <li>
-                  Developed algorithms using machine learning and statistical modeling techniques with PyTorch, Scikit-learn, and Hugging Face to enhance system performance by 20% and data accuracy by 15% in pharmaceutical return processes, integrating GenAI for predictive analytics.
+                  Implemented Azure serverless orchestration workflows using Azure Functions, Azure Storage, Azure Monitor, Azure SQL, Cosmos DB, logging, and alerting for conversational context persistence, metadata management, and enterprise AI operations.
                   </li>
                   <li>
-                  Evaluated and refined predictive models to optimize quality control and data management within the supply chain operations, deploying them via AWS machine learning pipelines including Bedrock for LLM fine-tuning, reducing errors by 10%.
+	                Designed AWS-based MLOps workflows using SageMaker, EKS, ECS, MLflow, Kubeflow, Terraform, and Kubernetes-native pipeline orchestration for scalable training, deployment, and monitoring.                  </li>
+                   <li>
+                  Delivered AWS Bedrock-based GenAI prototypes with human-in-the-loop validation, response review checkpoints, model comparison workflows, and governed enterprise AI interaction patterns.
                   </li>
-                  <li>
-                  Designed self-running AI software that automated predictive models, reducing manual intervention by 70% and improving operational efficiency by 25% through deep learning integrations with Node.js/Express backend and RESTful/GraphQL APIs.
+                   <li>
+                  Orchestrated LangGraph and MCP-style orchestration workflows for stateful multi-agent execution, governed tool invocation, workflow routing, shared context management, retries, fallback handling, and auditable enterprise AI interactions.
                   </li>
-                  <li>
-                  Incorporated deep learning components into full-stack applications using Angular for frontend dashboards with Context API, handling complex data processing tasks related to inventory and returns, improving user satisfaction by 30% with Pinecone for RAG-based systems.
+                   <li>
+                  Engineered enterprise RAG and retrieval workflows using LlamaIndex, Milvus, OpenSearch, Redis caching, semantic ranking, and evaluation of AWS Kendra for governed enterprise document retrieval and conversational AI systems.
                   </li>
-                  <li>
-                  Conceptualized AWS for deploying scalable machine learning pipelines, ensuring robust and secure handling of sensitive pharmaceutical data with Python and Go backend scripts, achieving 95% uptime with Kafka topics and partitions for event streaming.
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li
-              role="article"
-              className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
-            >
-              <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
-                2022
-              </h4>
-              <div className="flex flex-col flex-1 gap-2">
-                <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Senior Software Engineer  (100X, Inc)
-                  <span className="font-normal text-zinc-400 lg:hidden">
-                    {" "}
-                    - 2022
-                  </span>
-                </h3>
-                <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
-                  <li>
-                  Developed automated testing frameworks in Python and Node.js that accelerated the QA process by 10% and increased productivity by 10% from card to demo stages, incorporating CI/CD with GitHub Actions.
-                  </li>
-                  <li>
-                  Realized an access database system with user-friendly forms built in React using TypeScript and Next.js, enabling efficient tracking of aircraft parts inventory, reducing manual effort by 40% through interactive frontend components with Redux.
-                  </li>
-                  <li>
-                  Assembled full-stack web applications to analyze and process client data, incorporating secure interactions with multiple Go-based services interacting with APIs and databases for backend logic and GraphQL for efficient querying, improving data processing speed by 15%.
-                  </li>
-                  <li>
-                  Applied analytical skills to debug and optimize code, managing 3 simultaneous projects without delays in a dynamic business setting while integrating deep learning models for data analysis with TensorFlow and LangChain for GenAI features.
-                  </li>
-                  <li>
-                  Coordinated with teams to integrate machine learning elements where applicable, reflecting expertise in deep learning for data processing with prompt engineering and bias detection in LLM workflows, reducing bias by 25%.
+                   <li>
+                  Evaluated LLaMA-family experimentation workflows using LoRA/PEFT fine-tuning and quantization strategies to improve domain adaptation, inference efficiency, and cost-performance optimization.
                   </li>
                 </ul>
               </div>
@@ -301,32 +246,101 @@ const SectionShowreel = () => {
               </h4>
               <div className="flex flex-col flex-1 gap-2">
                 <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Machine Learning Engineer | Founder (LuminaLogiX)
+                Technical Advisor | Artificial Intelligence Fellow (Insight Data Science)
                   <span className="font-normal text-zinc-400 lg:hidden">
                     {" "}
-                    - 2019
+                    - 2021
                   </span>
                 </h3>
                 <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
                   <li>
-                  Designed and implemented an in-house algorithm for inventory tracking using advanced computer vision with OpenCV, PyTorch, and Hugging Face, pioneering innovations in intelligent inventory management via API integrations and RAG, reducing errors by 50%.
+                  Advised AI fellows and engineering teams on applied machine learning, product development, deployment strategy, and production-oriented AI system design.
                   </li>
                   <li>
-                  Led the patent process for the inventory system with the USPTO, demonstrating leadership in developing cutting-edge AI solutions that incorporated deep learning frameworks and GenAI models like those from OpenAI, achieving patent approval in 12 months.
+                  Mentored data scientists and engineers on ML architecture, model development, data infrastructure, product design, and application deployment.
                   </li>
                   <li>
-                  Built a recommendation engine that analyzed user preferences and behaviors using NLP techniques in Python with LangChain, achieving a 40% reduction in food wastage through personalized recommendations and vector embeddings in FAISS.
+                  Guided fellows on how to translate research prototypes into production-oriented applications with clear model assumptions, metrics, and user-facing workflows.
                   </li>
                   <li>
-                  Managed full lifecycle of 4 AI projects, from conception to deployment, utilizing machine learning pipelines and deep learning techniques on AWS infrastructure with Kubernetes orchestration and Terraform for IaC, completing projects 95% on schedule.
+                  Provided technical feedback on system design, data pipeline structure, model-serving approaches, and cloud deployment readiness.
                   </li>
                   <li>
-                  Unified Angular components for strengthened user experience in recommendation apps, ensuring seamless interaction with ML backend services using Node.js, Express, and PostgreSQL for schema design and performance optimization, boosting adoption by 35%.
+                  Developed a deep learning application for medical imaging analysis focused on pneumonia detection from chest X-rays.
+                  </li>
+                  
+                </ul>
+              </div>
+            </li>
+            <li
+              role="article"
+              className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
+            >
+              <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
+                2014
+              </h4>
+              <div className="flex flex-col flex-1 gap-2">
+                <h3 className="text-2xl font-medium leading-7 text-zinc-200">
+                Software Engineer | Data Scientist  (Zephyr Health)
+                  <span className="font-normal text-zinc-400 lg:hidden">
+                    {" "}
+                    - 2018
+                  </span>
+                </h3>
+                <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
+                  <li>
+                  Developed Java and Spring Boot backend services for healthcare data ingestion, categorization, scoring, entity disambiguation, and integration workflows.
+                  </li>
+                  <li>
+                  Contributed to migration from monolithic pipeline services to Spring Kafka microservices, improving data refresh and processing speed.
+                  </li>
+                  <li>
+                  Deployed containerized backend services using Docker and AWS ECS to support scalable healthcare analytics and distributed data-processing workloads.
+                  </li>
+                  <li>
+                  Designed OCR and healthcare document-processing pipelines using OpenCV, Tesseract, Python, and NLP workflows to extract structured information from clinical documents, provider records, insurance forms, and healthcare PDFs.
+                  </li>
+                  <li>
+                  Trained machine learning models on publication, clinical trial, insurance, provider, and commercial healthcare datasets to forecast product adoption and market behavior.
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li
+              role="article"
+              className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
+            >
+              <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
+                2009
+              </h4>
+              <div className="flex flex-col flex-1 gap-2">
+                <h3 className="text-2xl font-medium leading-7 text-zinc-200">
+                Statistical Programmer Analyst | Software Engineer (Semel Institute for Neuroscience and Human Behavior)
+                  <span className="font-normal text-zinc-400 lg:hidden">
+                    {" "}
+                    - 2014
+                  </span>
+                </h3>
+                <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
+                  <li>
+                  Designed statistical programming, ETL, and research software workflows supporting neuroscience, psychiatry, autism, ADHD, epilepsy, and cancer genetics research.
+                  </li>
+                  <li>
+                  Consulted on psychiatry and neuroscience studies involving data acquisition, study design, statistical modeling, statistical programming, and research publication support.
+                  </li>
+                  <li>
+                  Developed internal research applications and automation workflows using Python and Flask for data preparation, analysis support, and research reporting.
+                  </li>
+                  <li>
+                  Designed data munging and analysis workflows to support online cancer genetics education evaluation and research administration.
+                  </li>
+                  <li>
+                  Built ETL workflows using R, Python, Bash, SQL, and reproducible scripting patterns for neuroimaging, spectroscopic, behavioral, and bioinformatics datasets.
                   </li>
                 </ul>
               </div>
             </li> 
-            <li
+            {/* <li
               role="article"
               className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
             >
@@ -359,7 +373,7 @@ const SectionShowreel = () => {
                   </li>
                 </ul>
               </div>
-            </li> 
+            </li>  */}
           </ul>
           {/*<!-- End Alternative Changelog feed --> */}
         </div>

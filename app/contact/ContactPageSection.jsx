@@ -205,8 +205,8 @@ export const ContactPageSection = () => {
                   className="contact-content-item opacity-blur"
                   ref={contactItem2}
                 >
-                  <p className="small-description grey">Adress</p>
-                  <p className="description white">4951 SW 161ST AVE, MIRAMAR, FL, 33027</p>
+                  <p className="small-description grey">Address</p>
+                  <p className="description white">1667 18th St Oakland, CA 94607</p>
                 </div>
                 <div
                   className="contact-content-item opacity-blur"
@@ -220,28 +220,28 @@ export const ContactPageSection = () => {
                   ref={contactItem6}
                 >
                   <p className="small-description grey">Email</p>
-                  <p className="description white">alemanyalejandro365@gmail.com</p>
+                  <p className="description white">victorwinslowyee035@gmail.com</p>
                 </div>
-                <div
+                {/* <div
                   className="contact-content-item opacity-blur"
                   ref={contactItem7}
                 >
                   <p className="small-description grey">Telegram</p>
-                  <p className="description white">@alex10305</p>
-                </div>
-                <div
+                  <p className="description white"></p>
+                </div> */}
+                {/* <div
                   className="contact-content-item opacity-blur"
                   ref={contactItem4}
                 >
                   <p className="small-description grey">X</p>
                   <p className="description white">---</p>
-                </div>
+                </div> */}
                 <div
                   className="contact-content-item opacity-blur"
                   ref={contactItem3}
                 >
                   <p className="small-description grey">Phone Number</p>
-                  <p className="description white">+1 727 609 1115</p>
+                  <p className="description white">+1 510 775 0304</p>
                 </div>
               </div>
             </div>

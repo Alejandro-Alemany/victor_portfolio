@@ -3,9 +3,9 @@ import { Navigation } from "./Navigation";
 import Awwards from "./Awwards";
 
 export const metadata = {
-  title: " Alejandro Alemany | Get in Touch",
+  title: " Victor Winslow Yee | Get in Touch",
   description:
-    "Full Stack(React/Angular, Python)|AI/ML Engineer. open to collaboration. Alejandro Alemany portfolio developed by alemanyalejandro365@gmail.com. Let's connect!",
+    "Full Stack(React/Angular, Python)|AI/ML Engineer. open to collaboration. Victor Winslow Yee portfolio developed by victorwinslowyee035@gmail.com. Let's connect!",
   keywords: [
     "website design",
     "UX/UI design",

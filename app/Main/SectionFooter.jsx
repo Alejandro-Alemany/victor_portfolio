@@ -84,12 +84,15 @@ const SectionFooter = () => {
             height={29}
             alt="Logo"
           />
-          <h1 className="subheadline white">Alejandro Alemany</h1>
+          <h1 className="subheadline white">Victor Winslow Yee</h1>
           <p className="description grey">
-           Senior AI/ML and full-stack engineer with 10+ years of experience building production-grade ML,
-           GenAI, MLOps, data, and cloud-native applications across healthcare, supply chain, and enterprise platforms.
-           Strong hands-on background in Python, C#/.NET, React, TypeScript, Databricks, PySpark, AWS, GCP, and Azure,
-           with recent experience delivering HIPAA-compliant RAG, agentic AI, and clinical decision-support systems.
+           Principal AI/ML Software Engineer and senior applied AI leader with 15+ years of experience delivering
+           production-grade AI/ML platforms, GenAI systems, distributed backend services, NLP pipelines, recommendation systems,
+           healthcare analytics, and cloud-native ML infrastructure. Strong hands-on experience across Python, Java, C#, Go, FastAPI,
+           Spring Boot, PyTorch, TensorFlow, Hugging Face Transformers, Kafka, Databricks, AWS, Azure, GCP, Kubernetes,
+           and MLOps workflows. Experienced in enterprise RAG systems, Agentic AI, vector retrieval, event-driven architectures,
+           scalable ETL/ELT pipelines, and production AI governance, monitoring, and observability. Specialized in healthcare AI,
+           conversational intelligence, clinical analytics, FHIR/HL7-aware workflows, and enterprise AI platform development.
           </p>
         </div>
         <div className="footer-content-right">
@@ -142,11 +145,11 @@ const SectionFooter = () => {
       <div className="footer-divider" />
       <div className="footer-content-bottom">
         <p className="small-description grey">
-          © 2025 Alejandro Alemany All Rights Reserved
+          © 2026 Victor Winslow Yee All Rights Reserved
         </p>
         <div className="footer-socials">
           {/* <Linkedin strokeWidth={1.25} className="footer-socials-icon" /> */}
-          <a href="https://www.linkedin.com/in/alejandro-alemany-a4801a1013asd/" target="_blank">
+          <a href="https://www.linkedin.com/in/victorwyee/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1000 1000"
@@ -174,7 +177,7 @@ const SectionFooter = () => {
               ></path>
             </svg>
           </a>
-          <a href="https://t.me/alex10305" target="_blank">
+          <a href="https://t.me/vpanda035" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

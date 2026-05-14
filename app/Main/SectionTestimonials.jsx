@@ -142,7 +142,7 @@ const SectionTestimonials = () => {
                 <div className="testimonials-item-content">
                   <div className="w-full h-full flex flex-col justify-between">
                     <Image
-                      src="/images/avasure.png"
+                      src="/images/salesforce.png"
                       width={1200}
                       height={1200}
                       className="w-full rounded-xl"
@@ -150,7 +150,7 @@ const SectionTestimonials = () => {
                     />
                     <div className="flex w-full justify-center items-center  text-white text-2xl">
                       <a
-                        href="https://avasure.com/"
+                        href="https://salesforce.com/"
                         className="text-zinc-400 hover:text-zinc-50"
                         target="_blank"
                       >

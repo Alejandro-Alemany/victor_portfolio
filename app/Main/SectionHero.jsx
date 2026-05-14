@@ -178,18 +178,22 @@ const SectionHero = () => {
               <div className="hero-titlebox">
                 <div className="hero-titlebox-gradient" />
                 <h1 className="headline hero-headline white" ref={titleRef}>
-                  I&apos;m Alejandro Alemany <br /> Lead AI/ML Engineer | <br />  Data Scientist | Senior <br /> Software Engineer <br /> 
-                  (Python/C#/Go,React/Angular)
+                  I&apos;m Victor Winslow Yee <br /> Principal AI/ML Software Engineer | Data Scientist  <br /> 
+                  (Python/C#/Java/Go, <br />React/Angular)
                 </h1>
               </div>
               <p
                 className="big-description grey opacity-blur"
                 ref={descriptionRef}
               >
-                Senior AI/ML and full-stack engineer with 10+ years of experience building production-grade ML,
-                GenAI, MLOps, data, and cloud-native applications across healthcare, supply chain, and enterprise platforms.
-                Strong hands-on background in Python, C#/.NET, React, TypeScript, Databricks, PySpark, AWS, GCP, and Azure,
-                with recent experience delivering HIPAA-compliant RAG, agentic AI, and clinical decision-support systems.
+                Principal AI/ML Software Engineer and senior applied AI leader with 15+ years of experience
+                delivering production-grade AI/ML platforms, GenAI systems, distributed backend services, NLP pipelines,
+                recommendation systems, healthcare analytics, and cloud-native ML infrastructure. Strong hands-on experience
+                across Python, Java, C#, Go, FastAPI, Spring Boot, PyTorch, TensorFlow, Hugging Face Transformers, Kafka, Databricks,
+                AWS, Azure, GCP, Kubernetes, and MLOps workflows. Experienced in enterprise RAG systems, Agentic AI, vector retrieval,
+                event-driven architectures, scalable ETL/ELT pipelines, and production AI governance, monitoring, and observability.
+                Specialized in healthcare AI, conversational intelligence, clinical analytics, FHIR/HL7-aware workflows,
+                and enterprise AI platform development.
               </p>
             </div>
             {/* <div className="hero-buttons-row">
